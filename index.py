@@ -16,7 +16,7 @@ def test_qs(list, pivot):
 
 
 def main():
-    sys.setrecursionlimit(10000)
+    sys.setrecursionlimit(999999999)
 
     print("List length:")
     list_length = int(input())
